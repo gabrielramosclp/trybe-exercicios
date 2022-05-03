@@ -1,0 +1,8 @@
+O que eu vou aorender na trybe?
+
+
+- UNIX
+- BASH
+- GIT
+- HTML
+- PYTHON
