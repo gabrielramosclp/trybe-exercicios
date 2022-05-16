@@ -13,13 +13,28 @@ let somaNumbers = [numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4
 console.log(somaNumbers);
 
 
-/* exercício 3 e 4 */
+/* exercícios 3 e 4 */
 let mediaAritmeticaNumbers = [somaNumbers / 10];
 
 console.log(mediaAritmeticaNumbers);
-/* 1 */
+
 if (mediaAritmeticaNumbers > 20) {
     console.log('valor maior que 20');
 } else {
     console.log('valor menor ou igual a 20');
 }
+
+
+/* exercício 6 */
+let impares = 0
+
+for (let index = 0; index < numbers.length; index++) {
+    
+    if (numbers[index] %2 != 0) {
+        console.log(impares++);
+    }else {
+        console.log('não tem números ímpares');
+    }
+    
+}
+    
