@@ -123,6 +123,21 @@
       newSection3.className = 'right-content'
 
       newMain.appendChild(newSection3)      
+
+
+      /* parte 7 - 🚀 Adicione uma imagem com src configurado para o valor https://picsum.photos/200 e classe small-image. Esse elemento deve ser filho do section criado no passo 5; */
+      
+      function display_image(src, classe) {
+        let imageSection = document.createElement('img')
+        
+        imageSection.src = src;
+        imageSection.className = classe
+      
+        newSection2.appendChild(imageSection)
+      }
+
+      display_image('https://picsum.photos/200', 'small-image')
+      
      </script>
   </body>
 </html>
