@@ -58,15 +58,26 @@
   <body id="body">
     <script>
       // COLOQUE SEU CÓDIGO AQUI
-      let captador = document.querySelector('#body');
+      /* parte 1 */
+      let captBody = document.querySelector('#body');
       
-      let texto = 'Exercício 5.2 - JavaScript DOM';
+      let textoH1 = 'Exercício 5.2 - JavaScript DOM';
       
-      let titulo = document.createElement('h1');
+      let tituloH1 = document.createElement('h1');
       
-      titulo.innerText = texto;
+      tituloH1.innerText = textoH1;
       
-      captador.appendChild(titulo);
+      captBody.appendChild(tituloH1);
+
+
+      /* parte 2 */
+      let captMain = document.querySelector('.main-content');
+
+      let newMain = document.createElement('main');
+
+      newMain.className = 'main-content'
+
+      captBody.appendChild(newMain)
     </script>
   </body>
 </html>
