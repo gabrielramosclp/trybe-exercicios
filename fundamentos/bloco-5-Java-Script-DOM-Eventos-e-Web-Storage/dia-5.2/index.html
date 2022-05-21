@@ -58,7 +58,7 @@
   <body id="body">
     <script>
       // COLOQUE SEU CÓDIGO AQUI
-      /* parte 1 */
+      /* parte 1 - 🚀 Adicione a tag h1 com o texto Exercício 5.2 - JavaScript DOM como filho da tag body;*/
       let captBody = document.querySelector('#body');
       
       let textoH1 = 'Exercício 5.2 - JavaScript DOM';
@@ -70,7 +70,7 @@
       captBody.appendChild(tituloH1);
 
 
-      /* parte 2 */
+      /* parte 2 - 🚀 Adicione a tag main com a classe main-content como filho da tag body;*/
       let captMain = document.querySelector('.main-content');
 
       let newMain = document.createElement('main');
@@ -80,7 +80,7 @@
       captBody.appendChild(newMain)
 
 
-    /* parte 3 */
+    /* parte 3 - 🚀 Adicione a tag section com a classe center-content como filho da tag main criada no passo 2;*/
       /* document.querySelector('.main-content') */
 
       let captSection1 = document.querySelector('center-content') 
@@ -90,6 +90,17 @@
       newSection1.className = 'center-content'
 
       newMain.appendChild(newSection1)
+
+
+      /* parte 4 - 🚀 Adicione a tag p como filho do section criado no passo 3 e coloque algum texto;*/
+
+      let newParagrafoSection = document.createElement('p')
+
+      let textCenterContent = 'O DOM é uma ferramenta muito boa'
+
+      newParagrafoSection.innerText = textCenterContent
+      
+      newSection1.appendChild(newParagrafoSection)
      </script>
   </body>
 </html>
