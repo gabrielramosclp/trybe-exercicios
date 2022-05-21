@@ -138,6 +138,20 @@
 
       display_image('https://picsum.photos/200', 'small-image')
       
+
+      /* parte 8 - 🚀 Adicione uma lista não ordenada com os valores de 1 a 10 por extenso, ou seja, um, dois, três, ... como valores da lista. Essa lista deve ser filha do section criado no passo 6; */
+
+      let listaNaoOrdenada = document.createElement('ul')
+      let lista = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez']
+      let criaLista;
+
+      for (index = 0; index < lista.length; index += 1) {
+        criaLista = document.createElement('li')
+        criaLista.innerText = lista[index]
+      }
+      
+      newSection3.appendChild(listaNaoOrdenada)
+      listaNaoOrdenada.appendChild(criaLista)
      </script>
   </body>
 </html>
