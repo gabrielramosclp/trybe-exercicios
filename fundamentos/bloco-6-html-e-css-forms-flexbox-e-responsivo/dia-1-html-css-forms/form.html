@@ -5,24 +5,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>TrybeTrip</title>
 </head>
 
 <body>
     <header>
-        <h1>TrybeTrip</h1>
+        <h1 id="titulo">TrybeTrip</h1>
     </header>
-    <form action="" method="get">
+    <form action="" method="get" class="line-content">
         <div>
-            <label for="insira-nome">Nome completo:</label>
+            <label for="insira-nome" class="label-email-nome">Nome completo:</label>
             <input type="text" name="nome" id="insira-nome" placeholder="Digite seu nome completo" minlength="10"
-                maxlength="40">
+                maxlength="40" required>
         </div>
         <br>
         <div>
-            <label for="insira-email">Nome completo:</label>
+            <label for="insira-email">Email:</label>
             <input type="email" name="email" id="insira-email" placeholder="Digite seu email" minlength="10"
-                maxlength="50">
+                maxlength="50" required>
+        </div>
+        <br>
+        <div>
+            <input type="radio" name="destino" value="maldivas" id="input-destino" checked required>
+            <label for="input-destino">Maldivas</label>
+            
+            <input type="radio" name="destino" value="Vale do Silício" id="input-destino2" required>
+            <label for="input-destino2">Vale do Silício</label>
+            
+            <input type="radio" name="destino" value="Cancun" id="input-destino3" required>
+            <label for="input-destino3">Cancun</label>
+            
+            <input type="radio" name="destino" value="Dubai" id="input-destino4" required>
+            <label for="input-destino4">Dubai</label>
+        </div>
+        <div>
+            <label for="input-abstract"></label>
+            <textarea name="abstract" id="input-abstract" maxlength="500"></textarea>
         </div>
     </form>
 </body>
