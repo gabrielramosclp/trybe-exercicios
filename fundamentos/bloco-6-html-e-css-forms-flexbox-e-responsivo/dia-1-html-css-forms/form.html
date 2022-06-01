@@ -15,18 +15,20 @@
     </header>
     <form action="" method="get" class="line-content">
         <div>
-            <label for="insira-nome" class="label-email-nome">Nome completo:</label>
+            <label for="insira-nome" class="label-email-nome"><strong>Nome completo:</strong></label>
             <input type="text" name="nome" id="insira-nome" placeholder="Digite seu nome completo" minlength="10"
                 maxlength="40" required>
         </div>
         <br>
         <div>
-            <label for="insira-email">Email:</label>
+            <label for="insira-email"><strong>Email:</strong></label>
             <input type="email" name="email" id="insira-email" placeholder="Digite seu email" minlength="10"
                 maxlength="50" required>
         </div>
         <br>
         <div>
+            <p><strong>Destino Preferido:</strong></p>
+            
             <input type="radio" name="destino" value="maldivas" id="input-destino" checked required>
             <label for="input-destino">Maldivas</label>
             
@@ -39,9 +41,17 @@
             <input type="radio" name="destino" value="Dubai" id="input-destino4" required>
             <label for="input-destino4">Dubai</label>
         </div>
+        <br>
         <div>
-            <label for="input-abstract"></label>
+            <label for="input-abstract"><strong>Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?</strong></label>
+            <br>
             <textarea name="abstract" id="input-abstract" maxlength="500"></textarea>
+        </div>
+        <div>
+            <p><strong>Qual a melhor data para realizar sua viagem?</strong></p>
+            
+            <label for="disponible-date"></label>
+            <input type="date" name="data" value="data disponível" id="disponible-date">
         </div>
     </form>
 </body>
