@@ -48,3 +48,9 @@
   figcaption {
     font-size: .8em;
   }
+
+  @media screen and (min-width: 600px) {
+      body {
+          background-color: greenyellow;
+      }
+  }
