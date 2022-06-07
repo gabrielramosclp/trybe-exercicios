@@ -52,5 +52,7 @@
   @media screen and (min-width: 600px) {
       body {
           background-color: greenyellow;
+          font-size: 25px;
+          margin: 20px;
       }
   }
