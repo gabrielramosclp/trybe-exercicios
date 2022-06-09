@@ -1,3 +1,4 @@
+// Parte 1
 const testingScope = escopo => {
 
     if (escopo === true) {
@@ -12,3 +13,10 @@ const testingScope = escopo => {
 }
 
 testingScope(true);
+
+//Parte 2
+const oddsAndEvens = [13, 3, 4, 10, 7, 2];
+
+// Seu código aqui.
+
+console.log(oddsAndEvens); // será necessário alterar essa linha 😉
